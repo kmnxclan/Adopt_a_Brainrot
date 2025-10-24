@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Adopt a Brainrot 🚽 — v0.1</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+<header>
+<img id="logo" src="assets/logo512.png" alt="Adopt a Brainrot">
+<h1>Adopt a Brainrot 🚽</h1>
+</header>
+
+
+<main>
+<section id="menu">
+<button id="startBtn" class="big">Start Game</button>
+<div id="topStats" class="hidden">
+<span id="coins">Coins: 0</span>
+<span id="streak">Streak: 0</span>
+</div>
+</section>
+
+
+<section id="game" class="hidden">
+<div id="leftPanel">
+<div id="petCard">
+<img id="petImg" src="assets/pet_skibidi.png" alt="Brainrot">
+<div id="petName">Skibidi Toilet</div>
+<div id="mood">Mood: <span id="moodVal">Happy</span></div>
+<div id="needs">
+<div>Hunger: <span id="hungerVal">100</span></div>
+<div>Clean: <span id="cleanVal">100</span></div>
+<div>Energy: <span id="energyVal">100</span></div>
+</div>
+</div>
+
+
+<div id="controls">
+<button id="feedBtn">Feed</button>
+<button id="cleanBtn">Clean</button>
+<button id="playBtn">Play</button>
+<button id="evolveBtn">Evolve</button>
+</div>
+
+
+</div>
+
+
+<div id="rightPanel">
+<div id="scene">
+<div id="petSprite" class="idle"></div>
+</div>
+
+
+<div id="log"></div>
+</div>
+</section>
+
+
+</main>
+
+
+<footer>
+<small>v0.1 • Prototype — put assets in <code>/assets/</code></small>
+</footer>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
